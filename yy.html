@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        <style>
+        .box{
+            width:50px;
+            height: 50px;
+            background-color: #0F0;
+            margin: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+
+         <script src="js/jquery-1.10.1.min.js"></script>
+        <script>
+        $('.box').click(function(){
+            $(this).css("background-color","#00f");
+        })
+        </script>
+    </body>
+</html>

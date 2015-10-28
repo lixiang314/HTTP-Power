@@ -1,0 +1,126 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ol, ul {
+	padding-left: 1rem;
+}
+
+
+
+
+
+.container {
+	width: 100%;
+	/*position: fixed;*/
+}
+.bar_api {
+	position: fixed;
+	overflow-y:auto;
+	overflow-x:hidden;
+	height: 100%;
+	background-color: #025167;
+}
+.api_li {
+	height: 4rem;
+	/*background-color: #33495f;*/
+	background-color: #ccc;
+	border-bottom: 1px solid #aaa;
+	color: #000;
+	overflow:none;
+}
+
+.api_li_name {
+	margin: 0.5rem 0 0 0.5rem;
+	background: none;
+	border: none;
+	outline: none;
+
+}
+.api_li_value {
+	margin: 0.5rem 0 0 0.5rem;
+}
+.api_li_type {
+	font-weight: 900;
+	color:#148fd6;
+}
+.api_add {
+	height: 2rem;
+	background-color: #009b5f;
+	color: #fff;
+	font-weight: 900;
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+.bar-url {
+	position: fixed;
+	left: 16%;
+	background-color: #eee;
+	height: 100%;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	padding: 1em 1rem;
+	overflow-y:auto;
+	overflow-x:hidden;
+
+}
+
+.url_type {
+	height:2.2em;
+}
+#btn_enter {
+	background-color: #009b5f;
+}
+.inp_url {
+	outline-color:#009b5f;
+}
+
+
+
+
+
+
+/*json列表*/
+.bar_data {
+	position: relative;
+	margin-left: 55%;
+	line-height: 1rem;
+    overflow: auto;
+    	/*width: %;*/
+    font-size: 0.7rem;
+
+}
+
+
+.bar_data_in {
+	/*position: relative;*/
+}
+
+.bar_data li {
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	background-color: #fff;
+}
+
+.data_value {
+	color: #009b5f;
+	width: 300px;
+	word-break:break-all;
+	overflow:hidden;
+	text-overflow : clip | ellipsis;
+	border: none;
+	float: right;
+	height: 1.2em;
+}
+.data_key {
+	color:#000;
+	line-height: 1.2em;
+}
+
+.grey {
+	color: #aaa;
+}
